@@ -29,7 +29,7 @@ class Empleados ():
         self.fecha_nacimiento = fecha_nacimiento
 
     def edad(self) -> int:
-        """Calcula la edad del empleado
+        """Calcula la edad del empleado con respecto a la fecha actual
 
         :return: Años de edad del empleado
         :rtype: int
